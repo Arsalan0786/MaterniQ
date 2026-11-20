@@ -1,0 +1,4 @@
+Cluster,Total_Patients,Adverse_Events,Incidence_Rate (%),95%_CI_Lower (%),95%_CI_Upper (%),Stratified_Risk_Tier
+Cluster 1,500,67,13.4,10.69,16.67,Lower Observed Risk Profile
+Cluster 2,336,60,17.86,14.13,22.31,Intermediate Observed Risk Profile
+Cluster 0,178,145,81.46,75.11,86.48,Higher Observed Risk Profile

@@ -1,0 +1,16 @@
+Domain,Metric,Tanzania Cohort (N=8817),UCI Benchmark (N=1014),Academic Benchmark Target
+Internal Clustering Quality,"Within-Cluster Sum of Squares (Inertia, K=3)","55,769.44","3,289.23",Lower is superior (Elbow point)
+Internal Clustering Quality,Silhouette Coefficient (s),0.1147,0.2954,> 0.0 (Valid separation in high-dim clinical data)
+Internal Clustering Quality,Davies-Bouldin Index (DBI),2.1936,1.3112,Lower is superior (Tighter clusters)
+Internal Clustering Quality,Calinski-Harabasz Index (CHI),"1,166.88",429.51,Higher is superior (Dispersion ratio)
+Internal Clustering Quality,"Cluster Stability (Pairwise Mean ARI, 5 Seeds)",0.9771 (+/-0.0076),1.0000 (+/-0.0000),> 0.90 (Deterministic partition stability)
+External Clinical Validation,Pearson Chi-Square Independence (Chi2),788.793,338.122,p < 0.05 (Non-random outcome association)
+External Clinical Validation,Hypothesis Test p-value,5.20e-172,6.43e-72,Statistically Significant (p <<< 0.001)
+External Clinical Validation,Cramer's V (Effect Size),0.2991,0.4083,> 0.25 (Substantial / Strong clinical effect)
+External Clinical Validation,Relative Risk: High vs Baseline (RR [95% CI]),"1.67 [1.61, 1.74]","6.08 [4.81, 7.68]",CI strictly excludes 1.0
+External Clinical Validation,Odds Ratio: High vs Baseline (OR [95% CI]),"3.83 [3.45, 4.26]","28.40 [17.97, 44.86]",CI strictly excludes 1.0
+External Clinical Validation,Adverse Outcome Incidence: Lower Risk Tier,"45.50% [43.90, 47.11]","13.40% [10.69, 16.67]",Statistically separable from intermediate/high
+External Clinical Validation,Adverse Outcome Incidence: Intermediate Tier,"72.49% [70.51, 74.39]","17.86% [14.13, 22.31]",Clear gradient progression
+External Clinical Validation,Adverse Outcome Incidence: Higher Risk Tier,"76.19% [74.65, 77.65]","81.46% [75.11, 86.48]",Peak observed risk concentration
+External Clustering Agreement,Cluster Purity,0.6626 (66.3%),0.6726 (67.3%),Dominant class concentration
+External Clustering Agreement,Normalized Mutual Information (NMI),0.0519,0.2184,> 0.0 (Information shared with ground truth)
